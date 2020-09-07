@@ -1,5 +1,5 @@
 /*******************************************************************************************
- * File: main.c
+ * File: main.cpp
  * 
  * Copyright 2020 MohsenLol
  * All Rights Reserved.
@@ -26,9 +26,12 @@
 using namespace std;
 int main()
 {
+    cout << "Revised By MasterFoo" << endl;
+    cout << "Ver 1" << endl;
     int a,b; // a, b are integer numbers
-    cout << "a, b : " << endl;
+    cout << "a  b : " << endl;
     cin >> a >> b;
     cout << "a*b = " << mult(a,b) << "\na+b = " << add(a,b) << endl;
+    cout << 'by!\n';
     
 }
